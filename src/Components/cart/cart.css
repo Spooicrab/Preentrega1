@@ -1,0 +1,14 @@
+* {
+  justify-content: end;
+}
+
+.cart {
+  margin-right: 5 px;
+  display: flex;
+  align-items: start;
+}
+img {
+  height: 30px;
+  align-self: end;
+  margin-right: 10px;
+}

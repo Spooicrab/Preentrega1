@@ -1,12 +1,12 @@
 import { Component } from "react";
 import "./App.css";
-import navbar from "./Components/navbar/navbar";
+import NavPrueba from "./Components/navbar/navbar";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <navbar />
+        <NavPrueba />
       </div>
     );
   }

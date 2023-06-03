@@ -1,3 +1,5 @@
 .navbar {
-  background-color: aquamarine;
+  background-color: grey !important;
+  align-items: center;
+  padding-right: 30px;
 }

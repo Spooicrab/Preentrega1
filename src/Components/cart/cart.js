@@ -1,5 +1,6 @@
 import React from "react";
 import Img from "../cart.jpg";
+import "./cart.css";
 
 export const cart = () => {
   return (
@@ -9,3 +10,5 @@ export const cart = () => {
     </div>
   );
 };
+
+export default cart;

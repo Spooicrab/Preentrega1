@@ -2,9 +2,11 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../navbar/navbar.css";
+import Cart from "../cart/cart";
+
 function NavPrueba() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" className="navbar">
       <Navbar.Brand href="#home">Tienda Cajón</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -14,6 +16,7 @@ function NavPrueba() {
           <Nav.Link href="#contact">Contacto</Nav.Link>
         </Nav>
       </Navbar.Collapse>
+      <Cart />
     </Navbar>
   );
 }

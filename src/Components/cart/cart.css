@@ -1,14 +1,10 @@
-* {
+.cart {
+  display: flex;
+  align-items: center;
   justify-content: end;
 }
-
-.cart {
-  margin-right: 5 px;
-  display: flex;
-  align-items: start;
-}
 img {
-  height: 30px;
-  align-self: end;
+  height: 38px;
+  align-self: center;
   margin-right: 10px;
 }
